@@ -1,0 +1,19 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "*"
+celery = "*"
+django-cors-headers = "*"
+djangorestframework = "*"
+dnstwist = "*"
+playwright = "*"
+redis = "*"
+requests = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.15"

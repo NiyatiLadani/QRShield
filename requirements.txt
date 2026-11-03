@@ -1,0 +1,40 @@
+# QRShield Backend - Production Dependencies
+Django==6.1.2
+djangorestframework==3.18.3
+django-cors-headers==4.9.0
+celery==5.6.3
+redis==8.1.0
+requests==2.34.2
+dnstwist==20250130
+playwright==1.64.1
+python-dateutil==4.0.0
+
+# Production server
+gunicorn==23.0.0
+whitenoise==6.8.2
+
+# Celery dependencies (pulled in automatically, pinned for reproducibility)
+amqp==5.4.1
+billiard==4.3.1
+kombu==5.6.2
+vine==5.1.0
+click==8.5.0
+click-didyoumean==0.3.1
+click-plugins==1.1.1.2
+click-repl==0.4.1
+prompt_toolkit==3.0.53
+
+# Other transitive dependencies
+asgiref==3.13.0
+certifi==2026.10.23
+charset-normalizer==3.5.2
+greenlet==3.5.6
+idna==3.20
+packaging==26.3
+pyee==14.0.0
+sqlparse==0.6.0
+typing_extensions==4.16.0
+tzdata==2026.6
+tzlocal==5.4.5
+urllib3==2.8.0
+wcwidth==0.9.4
